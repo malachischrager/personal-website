@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malachi Schrager - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Malachi Schrager</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#reading-list">Reading List</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/malachischrager" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline id="hero-video">
+                <source src="https://malachi-schrager-website.s3.us-west-1.amazonaws.com/videos/background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Hello, I'm Malachi Schrager</h1>
+            <p>Welcome to my personal website</p>
+            <p class="video-credit">(although this is my sister Maddie Skiing)</p>
+            <div class="cta-buttons">
+                <a href="#about" class="cta-primary">View My Work</a>
+                <a href="#contact" class="cta-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hi there! I'm a Quantitative Developer at BlackRock in San Francisco, where I combine my passion for finance with cutting-edge technology to build robust trading solutions. When I'm not diving into market data or optimizing algorithms, you'll find me carving down ski slopes or in the pool playing water polo.</p>
+                
+                <p>I thrive on the intersection of quantitative analysis and software development, bringing a unique blend of analytical thinking and technical expertise to every project. My work focuses on developing sophisticated financial models and implementing efficient trading strategies.</p>
+            </div>
+            <div class="skills">
+                <h3>Technical Skills</h3>
+                <ul class="skills-list">
+                    <li>Quantitative Analysis</li>
+                    <li>Financial Modeling</li>
+                    <li>Python / C++</li>
+                    <li>Machine Learning</li>
+                    <li>Data Engineering</li>
+                    <li>Risk Management</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section commented out for now
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description of your first project</p>
+                <a href="#" class="project-link">Learn More</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of your second project</p>
+                <a href="#" class="project-link">Learn More</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of your third project</p>
+                <a href="#" class="project-link">Learn More</a>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <section id="reading-list" class="reading-list">
+        <h2>Reading List</h2>
+        <div class="books-grid">
+            <div class="book-card">
+                <h3>Deep Work</h3>
+                <p class="book-author">by Cal Newport</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: January 2024</span>
+                    <span class="book-category">Category: Non-Fiction, Productivity</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>Sapiens</h3>
+                <p class="book-author">by Yuval Noah Harari</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: December 2023</span>
+                    <span class="book-category">Category: Non-Fiction, History</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>The Quants</h3>
+                <p class="book-author">by Scott Patterson</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: November 2023</span>
+                    <span class="book-category">Category: Non-Fiction, Finance</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>Skin in the Game</h3>
+                <p class="book-author">by Nassim Nicholas Taleb</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: February 2024</span>
+                    <span class="book-category">Category: Non-Fiction</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>The Man Who Mistook His Wife for a Hat</h3>
+                <p class="book-author">by Oliver Sacks</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: March 2024</span>
+                    <span class="book-category">Category: Non-Fiction</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>Fooled by Randomness</h3>
+                <p class="book-author">by Nassim Nicholas Taleb</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: January 2024</span>
+                    <span class="book-category">Category: Non-Fiction</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>Prelude to Foundation</h3>
+                <p class="book-author">by Isaac Asimov</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: April 2024</span>
+                    <span class="book-category">Category: Science Fiction</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>Foundation</h3>
+                <p class="book-author">by Isaac Asimov</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: May 2024</span>
+                    <span class="book-category">Category: Science Fiction</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>Foundation and Empire</h3>
+                <p class="book-author">by Isaac Asimov</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: June 2024</span>
+                    <span class="book-category">Category: Science Fiction</span>
+                </div>
+            </div>
+            <div class="book-card">
+                <h3>Second Foundation</h3>
+                <p class="book-author">by Isaac Asimov</p>
+                <div class="book-metadata">
+                    <span class="read-date">Read: June 2024</span>
+                    <span class="book-category">Category: Science Fiction</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-info">
+            <p>Feel free to reach out to me at:</p>
+            <div class="email-addresses">
+                <a href="mailto:mmschrag@usc.edu" class="email-link">mmschrag@usc.edu</a>
+                <span class="email-separator">|</span>
+                <a href="mailto:malachischrager2020@gmail.com" class="email-link">malachischrager2020@gmail.com</a>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/malachischrager" target="_blank" class="social-icon" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/malachischrager/" target="_blank" class="social-icon" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/malachy_murphy3" target="_blank" class="social-icon" title="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.strava.com/athletes/134613153" target="_blank" class="social-icon" title="Strava">
+                <i class="fab fa-strava"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Malachi Schrager. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
